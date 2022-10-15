@@ -72,17 +72,15 @@ const Navbar = props => {
           mt={{ base: 4, md: 0 }}
         >
           <LinkItem href="/works" path={path}>
-            Works
+            Trabajos
           </LinkItem>
-          <LinkItem href="/posts" path={path}>
-            Posts
+          <LinkItem href="/contact" path={path}>
+            Contacto
           </LinkItem>
-          <LinkItem href="https://uses.craftz.dog/">
-            Uses
-          </LinkItem>
+         
           <LinkItem
             target="_blank"
-            href="https://github.com/craftzdog/craftzdog-homepage"
+            href="https://github.com/danndepp"
             path={path}
             display="inline-flex"
             alignItems="center"
@@ -90,7 +88,7 @@ const Navbar = props => {
             pl={2}
           >
             <IoLogoGithub />
-            Source
+            GitHub
           </LinkItem>
         </Stack>
 
@@ -107,22 +105,19 @@ const Navbar = props => {
               />
               <MenuList>
                 <NextLink href="/" passHref>
-                  <MenuItem as={Link}>About</MenuItem>
+                  <MenuItem as={Link}>Sobre mí</MenuItem>
                 </NextLink>
                 <NextLink href="/works" passHref>
-                  <MenuItem as={Link}>Works</MenuItem>
+                  <MenuItem as={Link}>Trabajos</MenuItem>
                 </NextLink>
-                <NextLink href="/posts" passHref>
-                  <MenuItem as={Link}>Posts</MenuItem>
-                </NextLink>
-                <NextLink href="https://uses.craftz.dog/" passHref>
-                  <MenuItem as={Link}>Uses</MenuItem>
+                <NextLink href="/contact" passHref>
+                  <MenuItem as={Link}>Contacto</MenuItem>
                 </NextLink>
                 <MenuItem
                   as={Link}
-                  href="https://github.com/craftzdog/craftzdog-homepage"
+                  href="https://github.com/danndepp"
                 >
-                  View Source
+                  GitHub
                 </MenuItem>
               </MenuList>
             </Menu>

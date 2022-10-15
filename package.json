@@ -1,7 +1,8 @@
 {
-  "name": "craftzdog-homepage",
+  "name": "Portfolio",
+  "homepage": "http://depp.codes/",
   "version": "1.0.0",
-  "description": "Takuya's website",
+  "description": "Daniel Pinzon Portfolio",
   "scripts": {
     "dev": "next dev -H 0.0.0.0",
     "build": "next build",
@@ -22,6 +23,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.4.0",
+    "react-scripts": "^5.0.1",
     "three": "^0.143.0"
   },
   "devDependencies": {
