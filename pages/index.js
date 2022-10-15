@@ -90,7 +90,7 @@ const Home = () => (
           <br />
           <br />
         </Paragraph>
-        De igual modo, tengo experiencia como desarrollador fullstack usando CMS populares tales como 
+        De igual modo, tengo experiencia como desarrollador full-stack usando CMS populares tales como 
           <b> Wordpress y Drupal.</b>
 
         <Box align="center" my={4}>
@@ -143,13 +143,13 @@ const Home = () => (
         </Heading>
         <List>
           <ListItem>
-            <Link href="#" target="_blank">
+            <Link href="https://github.com/Justdanielfloyd" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<IoLogoGithub />}
               >
-                @danndepp
+                @justdanielfloyd
               </Button>
             </Link>
           </ListItem>
