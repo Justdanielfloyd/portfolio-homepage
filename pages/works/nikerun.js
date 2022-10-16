@@ -18,7 +18,7 @@ const Work = () => (
         NikeRun <Badge>2022 (Experimental)</Badge>
       </Title>
       <P>
-        Landing page para zapatillas estilo running "NikeRun". Esta página web es <b>experimental</b>. 
+        Landing page para zapatillas estilo running. Esta página web es <b>experimental</b>. 
       </P>
       <P>
         Creada bajo el concepto Mobile First, sin frameworks ni ningún tipo de librería.
