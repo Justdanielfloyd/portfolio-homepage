@@ -15,7 +15,7 @@ const Work = () => (
   <Layout title="NikeRun">
     <Container>
       <Title>
-        NikeRun <Badge>2023 (Experimental)</Badge>
+        NikeRun <Badge>2022 (Experimental)</Badge>
       </Title>
       <P>
         Landing page para zapatillas estilo running. Esta página web es <b>experimental</b>. 
