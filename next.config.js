@@ -8,3 +8,4 @@ module.exports = {
     ignoreBuildErrors: true,
   },
   swcMinify: true
+}
