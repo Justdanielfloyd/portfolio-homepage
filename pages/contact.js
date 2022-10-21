@@ -27,7 +27,7 @@ const Contact = () => {
         return (
           <>
             <div className="text-2xl">Thank you!</div>
-            <div className="text-md">We'll be in touch soon.</div>
+            <div className="text-md">Well be in touch soon.</div>
           </>
         );
       }
