@@ -99,7 +99,7 @@ const Contact = () => {
 
     return (
         <div className="container">
-            <main>{formVisible ? ContactForm : ConfirmationMessage}</main>
+            <main></main>
         </div>
     );
 };
