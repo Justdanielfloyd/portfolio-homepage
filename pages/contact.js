@@ -17,25 +17,22 @@ const Contact = () => {
     const [email, setEmail] = useState("");
     const [message, setMessage] = useState("");
     const router = useRouter();
+    
+    const [submitted, setSubmitted] = useState(false);
+    const handleSubmit = () => {
+        setTimeout(() => {
+          setSubmitted(true);
+        }, 100);
+      };
 
-    const confirmationScreenVisible =
-        router.query?.success && router.query.success === "true";
-    const formVisible = !confirmationScreenVisible;
-
-    const ConfirmationMessage = (
-        <Layout>
-            <p>
-                Thank you for submitting this form. Someone should get back to you
-                within 24-48 hours.
-            </p>
-
-            <button
-                onClick={() => router.replace("/contact", undefined, { shallow: true })}
-            >
-                Enviar otro mensaje
-            </button>
-        </Layout>
-    );
+      if (submitted) {
+        return (
+          <>
+            <div className="text-2xl">Thank you!</div>
+            <div className="text-md">We'll be in touch soon.</div>
+          </>
+        );
+      }
 
     const ContactForm = (
 
