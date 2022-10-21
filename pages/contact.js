@@ -1,6 +1,5 @@
 import NextLink from 'next/link'
 import { useState } from 'react'
-import { useRouter } from "next/router";
 import {
     Container, Box, Heading, Button,
     VStack, Wrap, WrapItem, FormControl,
@@ -16,7 +15,6 @@ const Contact = () => {
     const [fullname, setFullname] = useState("");
     const [email, setEmail] = useState("");
     const [message, setMessage] = useState("");
-    const router = useRouter();
     
     const [submitted, setSubmitted] = useState(false);
     const handleSubmit = () => {
