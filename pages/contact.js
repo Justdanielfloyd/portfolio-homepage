@@ -28,6 +28,7 @@ export default function ContactForm() {
         setSuccessMessage(
           `¡Gracias por tu mensaje! 😊 Pronto me pondré en contacto contigo.`
         );
+        return response
       })
       .catch((e) => console.error(e));
   }
