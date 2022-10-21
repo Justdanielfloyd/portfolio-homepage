@@ -64,10 +64,10 @@ const Contact = () => {
                                             <FormControl id="email">
                                                 <FormLabel>Correo electrónico</FormLabel>
                                                 <InputGroup borderColor="#E0E1E7">
-                                                    <InputLeftElement
-                                                        pointerEvents="none"
-                                                        children={<MdOutlineEmail color="gray.800" />}
-                                                    />
+                                                    <InputLeftElement pointerEvents="none">
+                                                        <MdOutlineEmail color="gray.800" />
+                                                    </InputLeftElement>
+                                                
                                                     <Input name="email" required onChange={(e) => setEmail(e.target.value)} type="text" size="md" value={email} />
                                                 </InputGroup>
                                             </FormControl>
