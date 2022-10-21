@@ -5,7 +5,7 @@ import axios from "axios";
 import { useForm } from "react-hook-form";
 import Layout from "../components/layouts/article";
 import {
-    Container, Box, Heading, Button,
+    Container, Box, Heading,
     VStack, Wrap, WrapItem, FormControl,
     FormLabel, Input, InputGroup, InputLeftElement, Textarea,
 } from '@chakra-ui/react';
