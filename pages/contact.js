@@ -55,10 +55,9 @@ const Contact = () => {
                                             <FormControl id="name">
                                                 <FormLabel>Tu nombre</FormLabel>
                                                 <InputGroup borderColor="#E0E1E7">
-                                                    <InputLeftElement
-                                                        pointerEvents="none"
-                                                        children={<BsPerson color="gray.800" />}
-                                                    />
+                                                    <InputLeftElement pointerEvents="none">
+                                                        <BsPerson color="gray.800" />
+                                                    </InputLeftElement>
                                                     <Input name="name" required onChange={(e) => setFullname(e.target.value)} type="text" size="md" value={fullname}/>
                                                 </InputGroup>
                                             </FormControl>
